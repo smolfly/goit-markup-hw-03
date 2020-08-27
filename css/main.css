@@ -1,0 +1,71 @@
+ /* Герой */
+ .hero {
+    background-color: var(--secondary-darkgray-color);
+ }
+
+.hero-title {
+    color: var(--primary-white-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+ }
+
+.button {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+
+    font-weight: 700;
+    font-size: 16px;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-decoration: none;
+ }
+
+ /* Наши преимущества */
+
+.advantages-title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase
+ }
+
+ /* Услуги и команда */
+
+ .team {
+     background-color: var(--secondary-gray-color);
+ }
+
+
+.services-title, .team-title  {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+ }
+
+.team-name {
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center; 
+}
+
+.team-job {
+ 
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center; 
+}
