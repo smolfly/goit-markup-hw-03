@@ -22,8 +22,24 @@ ul {
     list-style: none;
  }
 
+.container {
+   padding-left: 15px;
+   padding-right: 15px;
+   width: 1200px;
+   margin-left: auto;
+   margin-right: auto;
+  /*  outline: 2px solid tomato; */
+   
+}
+
+.list {
+   margin: 0;
+   padding: 0;
+}
+
 /* Логотип */
 .logo-first {
+    margin-right: 93px ;
     color:var(--accent-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
@@ -39,16 +55,47 @@ ul {
     color:var(--primary-white-color);
  }
 
+
  /* Навигация */
 
  .site-nav .link {
   color: var(--title-text-color);
+ 
 
   font-weight: 500;
   font-size: 14px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-decoration: none;
+ }
+
+ .site-nav {
+    display: flex;
+ }
+
+ .site-nav-item:not(:last-child) {
+    margin-right: 50px;
+ }
+
+ .navigation {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+ }
+
+ .flexbox {
+    display: flex;
+    
+ }
+
+ .page-header .flexbox {
+   align-items: center;
+   justify-content: flex-end;
+ }
+
+ .page-header {
+   padding-top: 32px;
+   padding-bottom: 32px;
  }
 
  .site-nav .current {
@@ -66,8 +113,17 @@ ul {
   
  /* Контакты */
 
+ .contact-info {
+    display: flex;
+ }
+
+ .contact-item:not(:last-child) {
+   margin-right: 50px;
+}
+
  .contact-link {
     color: var(--primary-text-color);
+   
   
     font-weight: 500;
     font-size: 14px;
@@ -75,14 +131,27 @@ ul {
     letter-spacing: 0.02em;
     text-decoration: none;
  }
+
+
   
  /* Футер */
 
+.footer .logo-first {
+   display: flex;
+   margin-top: 0;
+   margin-bottom: 20px;
+}
+
  .footer {
+      padding-top: 60px;
+      padding-bottom: 60px;
      background: var(--secondary-darkgray-color);
  }
 
  .footer-contact-link {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 9px;
     color: var(--footer-contact-text-color);
     font-weight: 400;
     font-size: 14px;
@@ -93,6 +162,8 @@ ul {
  
 
  .adress-text {
+     margin-top: 0;
+     margin-bottom: 9px;
      color: var(--primary-white-color);
      font-weight: 400;
      font-size: 14px;  

@@ -8,6 +8,9 @@
 .btn {
     background-color: var(--secondary-gray-color);
     color: var(--title-text-color);
+    padding: 6px 22px;
+    border-radius: 4px;
+    border: 1px solid transparent;
 
 
     font-weight: 500;
@@ -25,9 +28,38 @@
     line-height: 1.6;
 }
 
+.sorter-list {
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 50px;
+    justify-content: center;
+}
+
+.sorter-item {
+    margin-left: 8px;
+}
+
 /* Примеры работ */
 
+.case-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.case-item {
+    width: calc((100% - 60px) / 3);
+    margin-right: 30px;
+    
+}
+
+.case-item:nth-child(3n) {
+    margin-right: 0px;
+  }
+
+
 .case-title {
+    margin-top: 0px;
+    margin-bottom: 4px;
     color: var(--title-text-color);
 
     font-weight: 700;
@@ -37,11 +69,22 @@
 }
 
 .case-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
     color: var(--primary-text-color);
 
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
 }
+
+.card-content {
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+}
+
+
 
  

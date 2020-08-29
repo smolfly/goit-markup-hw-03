@@ -1,21 +1,31 @@
  /* Герой */
  .hero {
     background-color: var(--secondary-darkgray-color);
+    text-align: center;
+    max-width: 1200;
  }
 
 .hero-title {
+    margin-top: 0;
+    margin-bottom: 30px;
     color: var(--primary-white-color);
 
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
 
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
  }
 
 .button {
+    display: inline-block;
+    padding: 10px 32px;
+    min-width: 200px;
+    min-height: 50px;
+    border-radius: 4px;
+   
+    
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 
@@ -27,35 +37,98 @@
     text-decoration: none;
  }
 
+ 
+
+.section {
+    padding-bottom: 94px;
+    padding-top: 94px;
+ }
+
  /* Наши преимущества */
+
+ .advantages {
+    padding-top: 94px; 
+ }
 
 .advantages-title {
     color: var(--title-text-color);
+    margin-top: 0px;
+    margin-bottom: 10px;
 
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase
+    
  }
+.advantages-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.advantages-list {
+    display: flex;
+}
+
+.advantages-item {
+    width: calc((100%-90px) / 4);
+}
+
+.advantages-item:not(:last-child) {
+    margin-right: 30px;
+  }
+ 
 
  /* Услуги и команда */
 
  .team {
      background-color: var(--secondary-gray-color);
+
  }
 
+.services-list {
+     display: flex;
+     margin: 0;
+ }
+
+ .services-item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  .services-item {
+    width: calc((100% - 60px) / 3);
+  }
+ 
 
 .services-title, .team-title  {
     color: var(--title-text-color);
+    margin-top: 0;
+    margin-bottom: 50px;
 
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
+
  }
+
+ .team-list {
+     display: flex;
+ }
+
+ .team-item {
+    width: calc((100%-90px) / 4);
+ }
+
+ .team-item:not(:last-child) {
+    margin-right: 30px;
+  }
+ 
 
 .team-name {
     color: var(--title-text-color);
+    margin-top: 0;
+    margin-bottom: 10px;
 
     font-weight: 500;
     font-size: 16px;
@@ -64,8 +137,11 @@
 }
 
 .team-job {
+    margin-top: 0;
+    margin-bottom: 0px;
  
     font-size: 16px;
     line-height: 1.9;
     text-align: center; 
 }
+
