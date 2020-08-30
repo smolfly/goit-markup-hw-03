@@ -68,6 +68,7 @@
 
 .advantages-list {
     display: flex;
+    margin: 0;
 }
 
 .advantages-item {
@@ -88,7 +89,7 @@
 
 .services-list {
      display: flex;
-     margin: 0;
+     margin: 0px;
  }
 
  .services-item:not(:last-child) {
@@ -114,6 +115,7 @@
 
  .team-list {
      display: flex;
+     margin: 0px;
  }
 
  .team-item {
