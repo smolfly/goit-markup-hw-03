@@ -59,8 +59,11 @@ ul {
  /* Навигация */
 
  .site-nav .link {
-  color: var(--title-text-color);
- 
+   display: flex;
+   color: var(--title-text-color);
+   padding-top: 32px;
+   padding-bottom: 32px;
+
 
   font-weight: 500;
   font-size: 14px;
@@ -93,14 +96,12 @@ ul {
    justify-content: flex-end;
  }
 
- .page-header {
-   padding-top: 32px;
-   padding-bottom: 32px;
- }
 
  .site-nav .current {
    color: var(--accent-color);
  } 
+
+
 
  .site-nav .link:hover,
  .site-nav .link:focus, 
@@ -115,6 +116,8 @@ ul {
 
  .contact-info {
     display: flex;
+    padding-left: 0px;
+    margin: 0px;
  }
 
  .contact-item:not(:last-child) {
@@ -132,7 +135,9 @@ ul {
     text-decoration: none;
  }
 
-
+img {
+   display: block;
+}
   
  /* Футер */
 
@@ -160,6 +165,9 @@ ul {
 
  }
  
+ .tel {
+   margin-bottom: 0px;
+ }
 
  .adress-text {
      margin-top: 0;

@@ -3,6 +3,15 @@
     text-decoration: none;
 }
 
+.portfolio-line {
+    border: 1px solid #ECECEC
+}
+
+.section {
+    padding-bottom: 94px;
+    padding-top: 94px;
+ }
+
 /* Кнопки */
 
 .btn {
@@ -44,18 +53,25 @@
 .case-list {
     display: flex;
     flex-wrap: wrap;
+    margin: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px ;
 }
 
 .case-item {
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
-    
+    margin-bottom: 0px;
 }
 
 .case-item:nth-child(3n) {
     margin-right: 0px;
   }
 
+ .case-item:nth-child(-n + 5) {
+     margin-bottom: 30px;
+ }
 
 .case-title {
     margin-top: 0px;
@@ -83,8 +99,9 @@
     padding-left: 24px;
     padding-bottom: 20px;
     padding-right: 24px;
+    border: 1px solid #EEEEEE;
+    
 }
-
 
 
  
